@@ -18,7 +18,7 @@ function accum(s) {
         mumbling += stringCopy[i].toLowerCase();
       }
     }
-    if (i !== (s.length - 1)) {
+    if (i !== (counter - 1)) {
       mumbling += '-';
     }
   }
